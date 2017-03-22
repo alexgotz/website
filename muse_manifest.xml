@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.alexgotz.com" resolutions="1x" timestamp="1490140812426">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.alexgotz.com" resolutions="1x" timestamp="1490154588181">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3975006006" ref="index"/>
+    <file name="index.css" crc="121925828" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -10,11 +10,16 @@
     <file name="museconfig.js" crc="4152223963" ref="index"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="bgimage.jpg" crc="4075528651" seo="true" ref="index">
+    <file name="sunrise.jpg" crc="156678596" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="halfdome.jpg" crc="91488661" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="258432114" seo="true" mt="1490140082915" redirect="true"/>
+  <file name="index.html" crc="3909554343" seo="true" mt="1490153348598" redirect="true"/>
 </manifest>
