@@ -16,54 +16,25 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=121925828" id="pagesheet"/>
-  <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/hkzQq21C-E-r2z51jwJfiLkG4kaGh-9-ccmrnruL5gvfe1tJ6r21MsJGwDSoFRqoFmNqwRSDFe9hZAscFQ6oZRwhFcJhFQMXwc9tw2gcwe9uwUGCHKoydemtZhNXpKoRdhXCjAU8peiziYG0jhNlOYiaikoydemtZhNXpKoRdhXKghFk-AuDdht7fbKxwsMMeM96MqGIQWmDZZMghrRYU69.js" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   try {Typekit.load();} catch(e) {}
-</script>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=56613361" id="pagesheet"/>
    </head>
  <body>
 
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
-    <div class="browser_width colelem" id="u318-bw">
-     <div id="u318"><!-- simple frame --></div>
-    </div>
-    <div class="browser_width colelem" id="u324-bw">
-     <a class="nonblock nontext anim_swing museBGSize" id="u324" href="index.html#home"><!-- simple frame --></a>
-    </div>
     <div class="clearfix colelem" id="pu354"><!-- group -->
      <div class="browser_width grpelem" id="u354-bw">
       <div id="u354"><!-- simple frame --></div>
      </div>
-     <div class="clearfix ose_pre_init grpelem" id="u436-4"><!-- content -->
-      <p>Alex's Adventures</p>
-     </div>
+     <img class="ose_pre_init grpelem" id="u436-4" alt="Alex's Adventures" width="289" height="50" src="images/u436-4.png?crc=4139863437"/><!-- rasterized frame -->
      <a class="anchor_item grpelem" id="home"></a>
     </div>
     <div class="browser_width colelem" id="u359-bw">
      <a class="nonblock nontext anim_swing museBGSize" id="u359" href="index.html#home"><!-- simple frame --></a>
     </div>
-    <div class="clearfix ose_pre_init colelem" id="u499-14"><!-- content -->
-     <p>&nbsp;</p>
-     <ul class="list0 nls-None" id="u499-4">
-      <li>Hikes</li>
-     </ul>
-     <p>&nbsp;</p>
-     <ul class="list0 nls-None" id="u499-8">
-      <li>Photography</li>
-     </ul>
-     <p>&nbsp;</p>
-     <ul class="list0 nls-None" id="u499-12">
-      <li>Other</li>
-     </ul>
-    </div>
-    <div class="verticalspacer" data-offset-top="1720" data-content-above-spacer="1720" data-content-below-spacer="30"></div>
-    <div class="clearfix colelem" id="u117-4"><!-- content -->
-     <p>©2017 Alex Gotz</p>
-    </div>
+    <img class="ose_pre_init colelem" id="u499-14" alt="&nbsp;Hikes Photography Other" width="353" height="270" src="images/u499-14.png?crc=3831031714"/><!-- rasterized frame -->
+    <div class="verticalspacer" data-offset-top="1554" data-content-above-spacer="665" data-content-below-spacer="1085"></div>
+    <img class="colelem" id="u117-4" alt="©2017 Alex Gotz" width="1000" height="29" src="images/u117-4.png?crc=4177791840"/><!-- rasterized frame -->
    </div>
   </div>
   <!-- Other scripts -->
@@ -79,10 +50,9 @@ Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u324').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,300]},{"speed":[0,0],"in":[300,Infinity]}]);/* scroll effect */
-$('#u436-4').registerOpacityScrollEffect([{"fade":100,"in":[-Infinity,1050],"opacity":0},{"opacity":100,"in":[1050,1050]},{"fade":50,"in":[1050,Infinity],"opacity":100}]);/* scroll effect */
-$('#u359').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,1025]},{"speed":[0,0],"in":[1025,Infinity]}]);/* scroll effect */
-$('#u499-14').registerOpacityScrollEffect([{"fade":100,"in":[-Infinity,1050],"opacity":0},{"opacity":100,"in":[1050,1050]},{"fade":50,"in":[1050,Infinity],"opacity":100}]);/* scroll effect */
+$('#u436-4').registerOpacityScrollEffect([{"fade":100,"in":[-Infinity,-4.95],"opacity":0},{"opacity":100,"in":[-4.95,-4.95]},{"fade":50,"in":[-4.95,Infinity],"opacity":100}]);/* scroll effect */
+$('#u359').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-29.95]},{"speed":[0,0],"in":[-29.95,Infinity]}]);/* scroll effect */
+$('#u499-14').registerOpacityScrollEffect([{"fade":100,"in":[-Infinity,-4.95],"opacity":0},{"opacity":100,"in":[-4.95,-4.95]},{"fade":50,"in":[-4.95,Infinity],"opacity":100}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
