@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.alexgotz.com" resolutions="1x" timestamp="1516832227084">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.alexgotz.com" resolutions="1x" timestamp="1516833055120">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="56613361" ref="index"/>
+    <file name="index.css" crc="471739881" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -17,9 +17,9 @@
     <file name="halfdome.jpg" crc="91488661" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u436-4.png" crc="4139863437" ref="index"/>
+    <file name="u436-4.png" crc="3993009235" ref="index"/>
     <file name="u499-14.png" crc="3831031714" ref="index"/>
     <file name="u117-4.png" crc="4177791840" ref="index"/>
   </folder>
-  <file name="index.html" crc="4247951795" seo="true" mt="1516832217975" redirect="true"/>
+  <file name="index.html" crc="215078745" seo="true" mt="1516833016439" redirect="true"/>
 </manifest>
